@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+body {background-color: #adcdeb;
+	}
+
+ul {display:flex;
+	justify-content: space-around;
+
+}
+
+h1 {color: #00004c;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 52px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+h2 {color: #19a600;
+	font-family: 'ABeeZee', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	}
+
+p {color: #3A529C;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	}
+
+li:hover {
+	opacity: 0.5;
+}
+
+li {
+ /*   font-size: 18px;
+    border: 2px solid #6600cc;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: inline-block;*/
+    background-color: white;
+    padding: 30px;
+    font-size: 30px;
+    width: 15%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+#firstList {
+    /*background-color: lime;*/
+}
+
+.fish {color: orange;
+	text-decoration: underline;
+	/*padding: 30px;
+	margin-top: 40px;*/
+	}
+.mammals {color: red;
+	font-weight: bold;
+	/*padding-left: 30px;
+	padding-right: 30px;*/
+	}
+.birds {color: blue;
+	font-weight: italic;
+	/*margin-top: 30px;
+	padding-bottom: 40px;*/
+}
+
+
